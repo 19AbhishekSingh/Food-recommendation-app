@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Gazpacho Black";
+  text-align: center;
+}
+
+body {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+}
+
+.heading {
+  color: white;
+  display: block;
+  margin: 3rem auto;
+  width: 50rem;
+  max-width: 80%;
+}
+
+button {
+  color: white;
+  background-color: #ef4f5f;
+  text-align: right;
+  padding: 0.7rem 1.3rem;
+  margin: auto 0.5rem;
+  border-radius: 0.5;
+  border: 0.5px solid;
+}
+
+.listoffood {
+  liststyle: none;
+  padding: 1rem;
+  border: 1.4px solid #ef4f5f;
+  width: 60rem;
+  maxwidth: 80%;
+  margin: 1rem 0rem;
+  borderradius: 0.5rem;
+  textalign: center;
+  color: white;
+  display: block;
+}
